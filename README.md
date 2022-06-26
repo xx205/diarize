@@ -8,8 +8,8 @@
 
 | system | MISS | FA | SC | DER |
 |:---|:---:|:---:|:---:|:---:
-| This repo (with oracle sad) | 4.4 | 0.6 | 3.7 | 8.7 |
-| This repo (with system sad) | 2.3 | 0.0 | 3.7 | 6.0 |
+| This repo (with oracle sad) | 2.3 | 0.0 | 3.7 | 6.0 |
+| This repo (with system sad) | 4.4 | 0.6 | 3.7 | 8.7 |
 | [1] DIHARD 2019 baseline | 11.1 | 1.4 | 11.3 | 23.8 |
 | [1] DIHARD 2019 baseline w/ SE | 9.3 | 1.3 | 9.7 | 20.2 |
 | [1] (SyncNet ASD only) | 2.2 | 4.1 | 4.0 | 10.4 |
