@@ -25,7 +25,7 @@ git clone https://github.com/joonson/voxconverse voxconverse_gt
 git clone https://github.com/snakers4/silero-vad
 
 # [4] spkrec-ecapa-voxceleb: pretrained speaker model from speechbrain
-pip install huggingface_hub==0.7 speechbrain==0.5.11 scipy==1.8.1 torch torchaudio numpy
+pip install huggingface_hub==0.7 speechbrain==0.5.11 scipy==1.8.1 scikit-learn==0.24.2 torch torchaudio numpy
 
 # Download pretrained ECAPA-TDNN speaker model
 ecapa_dir=spkrec-ecapa-voxceleb
