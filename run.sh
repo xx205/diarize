@@ -34,7 +34,6 @@ for file in hyperparams.yaml embedding_model.ckpt mean_var_norm_emb.ckpt classif
     wget -c --directory-prefix ${ecapa_dir} https://huggingface.co/speechbrain/spkrec-ecapa-voxceleb/resolve/main/${file}
 done
 touch ${ecapa_dir}/custom.py
-sed -i 's#\t#    #g;s#speechbrain/spkrec-ecapa-voxceleb#spkrec-ecapa-voxceleb#g' spkrec-ecapa-voxceleb/hyperparams.yaml
 
 # Download and extract dev audio
 mkdir -p data/dev
