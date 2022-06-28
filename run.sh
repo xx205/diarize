@@ -63,7 +63,7 @@ sad_type="system"
 python3 diar/clusterer.py \
     --scp data/dev/wav.scp \
     --segments data/dev/${sad_type}_sad \
-    --source spkrec-ecapa-voxceleb \
+    --source ./spkrec-ecapa-voxceleb \
     --device cuda > data/dev/${sad_type}_sad_labels
 
 # Convert labels to RTTMs
